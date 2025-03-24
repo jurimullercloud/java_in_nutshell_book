@@ -2,5 +2,5 @@
   "strictLineBreaks": true,
   "vimMode": true,
   "showLineNumber": true,
-  "readableLineLength": false
+  "readableLineLength": true
 }
