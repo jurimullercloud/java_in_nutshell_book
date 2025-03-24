@@ -4,24 +4,79 @@
     "type": "split",
     "children": [
       {
-        "id": "54def7326c9813dc",
-        "type": "tabs",
+        "id": "2f634bb973ff7d2f",
+        "type": "split",
         "children": [
           {
-            "id": "8de9db92a786f320",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ch1/arrays.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "arrays"
-            }
+            "id": "54def7326c9813dc",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8de9db92a786f320",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ch4-java-type-system/notes.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "notes"
+                }
+              }
+            ]
+          },
+          {
+            "id": "b75e6c628e8e346a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8a7816ca9d6ab3f1",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/mirzakhanaliyev/learning/java_in_nutshell_book",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "/bin/zsh",
+                        "name": "",
+                        "platforms": {
+                          "darwin": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": true,
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": {
+                        "columns": 192,
+                        "data": "╭─\u001b[38;5;40mmirzakhanaliyev \u001b[38;5;239mat \u001b[38;5;33mmacbookair \u001b[38;5;239min \u001b[38;5;226;1m~/learning/java_in_nutshell_book\u001b[0m \u001b[38;5;239mon\u001b[0m \u001b[38;5;255mmain\u001b[38;5;202m✘✘✘\r\n\u001b[0m╰─± git  \u001b[1D",
+                        "rows": 25
+                      }
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "Terminal: mirzakhanaliyev@macbookair:~/learning/java_in_nutshell_book"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -78,7 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "4d3ee41601a6438f",
@@ -165,15 +220,23 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "a804e48496885b74",
+  "active": "8a7816ca9d6ab3f1",
   "lastOpenFiles": [
-    "ch2-classes-and-objects/notes.md",
+    "ch4-java-type-system/notes.md",
+    "ch3-oop/notes.md",
+    "ch4-java-type-system",
+    "ch2-syntax/packages-and-file-structure.md",
+    "ch2-syntax/boxing-and-unboxing.md",
+    "ch2-syntax/arrays.md",
+    "ch2-syntax/obect-literals.md",
+    "ch2-syntax/varargs.md",
+    "ch2-syntax/lambda-expressions.md",
+    "ch3-oop",
     "ch1",
-    "ch1/obect-literals.md",
-    "ch2-classes-and-objects",
-    "ch1/lambda-expressions.md"
+    "ch2-syntax"
   ]
 }
