@@ -119,9 +119,33 @@ String[] fileList = dir.list(
 ```
 
 
-### Method references
+
+## Nested Types
 
 
+## Local classes
+Even though the definition of the class is local, when JVM exits the method scope, the instances of the class may live beyond that.
+
+
+
+## Anonymous Classes
+```java
+public class Animal {
+	public void sound() {}
+}
+
+public static void main() {
+	Anumal a = new Animal() {
+		@Override	
+		public void sound();
+	}
+
+	Runnable r = new Runnable() { // for multi-threading
+			@Override	
+		public void sound();	
+	}
+}
+```
 
 
 
